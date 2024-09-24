@@ -1,0 +1,66 @@
+body{
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+    background-color: white;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 70px;
+    padding-top: 30px;
+}
+
+.container .header p{
+    font-size: 2em;
+    text-align: center;
+    padding-right: 50px;
+    margin-top: -3em;
+}
+
+.container .box-3 p{
+    width: 290px;
+    height: 3em;
+    text-align: center;
+    background-color: aqua;
+    padding-top: 20px;
+    border-radius: 50px;
+
+}
+
+.container .box-3 p:hover{
+    color: black;
+    background-color: blue;
+}
+.butt{
+    width: 290px;
+    height: 6vh;
+    font-size: 1em;
+    border-radius: 50px;
+    border: none;
+    color: aqua;
+
+}
+
+.butt:hover{
+    color: black;
+    background-color: rgb(255, 115, 0);
+}
+
+@media screen and (min-width: 0px) and (max-width:400px){
+	body{
+		background: white;
+        width: 80%;
+        padding: 32px;
+	}
+
+	.container{
+        font-size: 0.5m;
+        flex-direction: column;
+
+    }
+
+    
+}

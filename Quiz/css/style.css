@@ -1,0 +1,70 @@
+body{
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+}
+
+.header{
+    display: flex;
+    justify-content: end;
+    align-items: end;
+    width: 100%;
+}
+.bx{
+    font-size: 30px;
+}
+.header .navbar{
+    padding-right: 20px;
+    padding-top: 20px;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 70px;
+    padding: 2em;
+    
+}
+
+.container .box-1 p{
+    font-size: 3em;
+    text-transform: capitalize;
+    margin-top: -3em;
+
+}
+
+.container .box-2 p{
+    width: 200px;
+    height: 3em;
+    text-align: center;
+    background-color: aqua;
+    padding-top: 20px;
+    border-radius: 50px;
+
+}
+
+.container .box-2 a{ 
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    
+}
+
+.container .box-2 p:hover{
+    color: black;
+    background-color: brown;
+}
+@media screen and (min-width: 0px) and (max-width:700px){
+	body{
+		background: white;
+        width: 60%;
+        padding: 30px;
+	}
+
+	.container {
+        font-size: 0.5m;
+        flex-direction: column;
+
+    }
+}
